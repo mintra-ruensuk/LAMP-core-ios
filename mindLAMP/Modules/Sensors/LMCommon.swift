@@ -342,6 +342,10 @@ enum SensorType: LampDataKeysProtocol {
     case lamp_sms
     case lamp_steps
     case lamp_wifi
+    case lamp_watch_accelerometer
+    case lamp_watch_gravity
+    case lamp_watch_rotaion
+    case lamp_watch_attitude
     
     var jsonKey: String {
         switch self {
@@ -383,6 +387,14 @@ enum SensorType: LampDataKeysProtocol {
             return "lamp.current_cadence"
         case .lamp_avgActivePace:
             return "lamp.avg_active_pace"
+        case .lamp_watch_accelerometer:
+            return "lamp.watch.accelerometer"
+        case .lamp_watch_gravity:
+            return "lamp.watch.gravity"
+        case .lamp_watch_rotaion:
+            return "lamp.watch.rotaion"
+        case .lamp_watch_attitude:
+            return "lamp.watch.attitude"
         }
     }
 }

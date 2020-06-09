@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		334B7411248E784300E9553A /* AccelerometerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F82D54624122EFD0040AA41 /* AccelerometerData.swift */; };
+		334B7412248E784B00E9553A /* GravityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F82D571241271830040AA41 /* GravityData.swift */; };
+		334B7417248E7B3200E9553A /* AttitudeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334B7416248E7B3200E9553A /* AttitudeData.swift */; };
+		334B7418248E7B5400E9553A /* AttitudeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334B7416248E7B3200E9553A /* AttitudeData.swift */; };
+		334B741C248E7D0700E9553A /* AwareObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F82D53D24122EFD0040AA41 /* AwareObject.swift */; };
+		334B741D248E7D1300E9553A /* AwareUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F82D54124122EFD0040AA41 /* AwareUtils.swift */; };
+		334B741E248E7F1C00E9553A /* RotationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F82D5812412752F0040AA41 /* RotationData.swift */; };
+		336CAD15248E147400ECA190 /* LMWatchWorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336CAD14248E147400ECA190 /* LMWatchWorkoutManager.swift */; };
+		336CAD18248E14DA00ECA190 /* LMWatchSensorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336CAD17248E14DA00ECA190 /* LMWatchSensorManager.swift */; };
+		336CAD1A248E150D00ECA190 /* LMRunningBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336CAD19248E150D00ECA190 /* LMRunningBuffer.swift */; };
+		33A811482487A69A00C336BD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A811462487A69A00C336BD /* Interface.storyboard */; };
+		33A8114A2487A6A700C336BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A811492487A6A700C336BD /* Assets.xcassets */; };
+		33A811512487A6A800C336BD /* mindLAMPWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 33A811502487A6A800C336BD /* mindLAMPWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		33A811562487A6A800C336BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A811552487A6A800C336BD /* ContentView.swift */; };
+		33A811582487A6A800C336BD /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A811572487A6A800C336BD /* HostingController.swift */; };
+		33A8115A2487A6A800C336BD /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A811592487A6A800C336BD /* ExtensionDelegate.swift */; };
+		33A8115C2487A6A800C336BD /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A8115B2487A6A800C336BD /* NotificationController.swift */; };
+		33A8115E2487A6A800C336BD /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A8115D2487A6A800C336BD /* NotificationView.swift */; };
+		33A811602487A6A900C336BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A8115F2487A6A900C336BD /* Assets.xcassets */; };
+		33A811632487A6A900C336BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A811622487A6A900C336BD /* Preview Assets.xcassets */; };
+		33A811682487A6A900C336BD /* mindLAMPWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 33A811442487A69900C336BD /* mindLAMPWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		33A811722487ACD200C336BD /* LAMPInitialInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A811712487ACD200C336BD /* LAMPInitialInterfaceController.swift */; };
+		33B828DA248EBBAE005B147B /* LMWatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B828D9248EBBAE005B147B /* LMWatchSessionManager.swift */; };
+		33B828DD248EC299005B147B /* LMPhoneSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B828DC248EC299005B147B /* LMPhoneSessionManager.swift */; };
+		33D4A2F4248F5D6600AC70D5 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D4A2F3248F5D6600AC70D5 /* HealthKit.framework */; };
 		5F34363324210B8A0097EC2F /* LMLogsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F34363224210B8A0097EC2F /* LMLogsManager.swift */; };
 		5F3D223C241A0F0600899DD0 /* LMBluetoothSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3D223B241A0F0600899DD0 /* LMBluetoothSensor.swift */; };
 		5F763011242386AA00B2DD03 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F763010242386AA00B2DD03 /* Localizable.strings */; };
@@ -96,6 +121,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		33A811522487A6A800C336BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B29639C523BDC28100626E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A8114F2487A6A800C336BD;
+			remoteInfo = "mindLAMPWatch Extension";
+		};
+		33A811662487A6A900C336BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B29639C523BDC28100626E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A811432487A69900C336BD;
+			remoteInfo = mindLAMPWatch;
+		};
 		B2847FB92450550E0042D43B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B29639C523BDC28100626E1A /* Project object */;
@@ -113,6 +152,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		33A811692487A6A900C336BD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				33A811682487A6A900C336BD /* mindLAMPWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A8116C2487A6A900C336BD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				33A811512487A6A800C336BD /* mindLAMPWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5F7D0ADD23D8478B00BA0B4F /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,6 +199,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		334B7416248E7B3200E9553A /* AttitudeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttitudeData.swift; sourceTree = "<group>"; };
+		336CAD14248E147400ECA190 /* LMWatchWorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMWatchWorkoutManager.swift; sourceTree = "<group>"; };
+		336CAD17248E14DA00ECA190 /* LMWatchSensorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMWatchSensorManager.swift; sourceTree = "<group>"; };
+		336CAD19248E150D00ECA190 /* LMRunningBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMRunningBuffer.swift; sourceTree = "<group>"; };
+		33A811442487A69900C336BD /* mindLAMPWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mindLAMPWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A811472487A69A00C336BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		33A811492487A6A700C336BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33A8114B2487A6A700C336BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A811502487A6A800C336BD /* mindLAMPWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "mindLAMPWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A811552487A6A800C336BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33A811572487A6A800C336BD /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		33A811592487A6A800C336BD /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		33A8115B2487A6A800C336BD /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		33A8115D2487A6A800C336BD /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		33A8115F2487A6A900C336BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33A811622487A6A900C336BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33A811642487A6A900C336BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A811652487A6A900C336BD /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		33A811712487ACD200C336BD /* LAMPInitialInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAMPInitialInterfaceController.swift; sourceTree = "<group>"; };
+		33B828D9248EBBAE005B147B /* LMWatchSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMWatchSessionManager.swift; sourceTree = "<group>"; };
+		33B828DC248EC299005B147B /* LMPhoneSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMPhoneSessionManager.swift; sourceTree = "<group>"; };
+		33D4A2F2248F5D6400AC70D5 /* mindLAMPWatch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "mindLAMPWatch Extension.entitlements"; sourceTree = "<group>"; };
+		33D4A2F3248F5D6600AC70D5 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS6.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		5F34363224210B8A0097EC2F /* LMLogsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMLogsManager.swift; sourceTree = "<group>"; };
 		5F3D223B241A0F0600899DD0 /* LMBluetoothSensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMBluetoothSensor.swift; sourceTree = "<group>"; };
 		5F763010242386AA00B2DD03 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
@@ -233,6 +317,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		33A8114D2487A6A800C336BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D4A2F4248F5D6600AC70D5 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B2847FB12450550E0042D43B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -260,6 +352,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		334B7415248E7A7600E9553A /* attitude */ = {
+			isa = PBXGroup;
+			children = (
+				334B7416248E7B3200E9553A /* AttitudeData.swift */,
+			);
+			path = attitude;
+			sourceTree = "<group>";
+		};
+		336CAD16248E149000ECA190 /* SensorManager */ = {
+			isa = PBXGroup;
+			children = (
+				336CAD14248E147400ECA190 /* LMWatchWorkoutManager.swift */,
+				336CAD17248E14DA00ECA190 /* LMWatchSensorManager.swift */,
+				336CAD19248E150D00ECA190 /* LMRunningBuffer.swift */,
+			);
+			path = SensorManager;
+			sourceTree = "<group>";
+		};
+		33A811452487A69900C336BD /* mindLAMPWatch */ = {
+			isa = PBXGroup;
+			children = (
+				33A811462487A69A00C336BD /* Interface.storyboard */,
+				33A811492487A6A700C336BD /* Assets.xcassets */,
+				33A8114B2487A6A700C336BD /* Info.plist */,
+			);
+			path = mindLAMPWatch;
+			sourceTree = "<group>";
+		};
+		33A811542487A6A800C336BD /* mindLAMPWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				33D4A2F2248F5D6400AC70D5 /* mindLAMPWatch Extension.entitlements */,
+				33B828DB248EC278005B147B /* PhoneSessionManager */,
+				336CAD16248E149000ECA190 /* SensorManager */,
+				33A811712487ACD200C336BD /* LAMPInitialInterfaceController.swift */,
+				33A811552487A6A800C336BD /* ContentView.swift */,
+				33A811572487A6A800C336BD /* HostingController.swift */,
+				33A811592487A6A800C336BD /* ExtensionDelegate.swift */,
+				33A8115B2487A6A800C336BD /* NotificationController.swift */,
+				33A8115D2487A6A800C336BD /* NotificationView.swift */,
+				33A8115F2487A6A900C336BD /* Assets.xcassets */,
+				33A811642487A6A900C336BD /* Info.plist */,
+				33A811652487A6A900C336BD /* PushNotificationPayload.apns */,
+				33A811612487A6A900C336BD /* Preview Content */,
+			);
+			path = "mindLAMPWatch Extension";
+			sourceTree = "<group>";
+		};
+		33A811612487A6A900C336BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				33A811622487A6A900C336BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33B828D8248EBB79005B147B /* WatchSessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				33B828D9248EBBAE005B147B /* LMWatchSessionManager.swift */,
+			);
+			path = WatchSessionManager;
+			sourceTree = "<group>";
+		};
+		33B828DB248EC278005B147B /* PhoneSessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				33B828DC248EC299005B147B /* LMPhoneSessionManager.swift */,
+			);
+			path = PhoneSessionManager;
+			sourceTree = "<group>";
+		};
 		5F49C3BC241B824D00809A72 /* Lamp Sensors */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,6 +444,7 @@
 		5F82D53B24122EFD0040AA41 /* Aware Sensors */ = {
 			isa = PBXGroup;
 			children = (
+				334B7415248E7A7600E9553A /* attitude */,
 				5F82D56B24126FDC0040AA41 /* Calls */,
 				5F82D53C24122EFD0040AA41 /* Core */,
 				5F82D54524122EFD0040AA41 /* Accelerometer */,
@@ -434,6 +599,7 @@
 		B240814323D8803900845AEE /* AppComponents */ = {
 			isa = PBXGroup;
 			children = (
+				33B828D8248EBB79005B147B /* WatchSessionManager */,
 				5FF29328242239DA00D0BE09 /* Common */,
 				B240816823D8814300845AEE /* OperationQueue */,
 				B240814923D8803900845AEE /* NetworkConfig.swift */,
@@ -598,6 +764,8 @@
 				B29639CF23BDC28100626E1A /* mindLAMP */,
 				B2D930FC2445D7E90086477D /* CustomNotification */,
 				B2847FB52450550E0042D43B /* NotificationService */,
+				33A811452487A69900C336BD /* mindLAMPWatch */,
+				33A811542487A6A800C336BD /* mindLAMPWatch Extension */,
 				B29639CE23BDC28100626E1A /* Products */,
 				B2B8979623D0ADBA00321C3E /* Frameworks */,
 			);
@@ -609,6 +777,8 @@
 				B29639CD23BDC28100626E1A /* mindLAMP 2.app */,
 				B2D930F72445D7E90086477D /* CustomNotification.appex */,
 				B2847FB42450550E0042D43B /* NotificationService.appex */,
+				33A811442487A69900C336BD /* mindLAMPWatch.app */,
+				33A811502487A6A800C336BD /* mindLAMPWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -644,6 +814,7 @@
 		B2B8979623D0ADBA00321C3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				33D4A2F3248F5D6600AC70D5 /* HealthKit.framework */,
 				B2B8979723D0ADBA00321C3E /* HealthKit.framework */,
 				B2D930F82445D7E90086477D /* UserNotifications.framework */,
 				B2D930FA2445D7E90086477D /* UserNotificationsUI.framework */,
@@ -673,6 +844,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		33A811432487A69900C336BD /* mindLAMPWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A811702487A6A900C336BD /* Build configuration list for PBXNativeTarget "mindLAMPWatch" */;
+			buildPhases = (
+				33A811422487A69900C336BD /* Resources */,
+				33A8116C2487A6A900C336BD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A811532487A6A800C336BD /* PBXTargetDependency */,
+			);
+			name = mindLAMPWatch;
+			productName = mindLAMPWatch;
+			productReference = 33A811442487A69900C336BD /* mindLAMPWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		33A8114F2487A6A800C336BD /* mindLAMPWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A8116F2487A6A900C336BD /* Build configuration list for PBXNativeTarget "mindLAMPWatch Extension" */;
+			buildPhases = (
+				33A8114C2487A6A800C336BD /* Sources */,
+				33A8114D2487A6A800C336BD /* Frameworks */,
+				33A8114E2487A6A800C336BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mindLAMPWatch Extension";
+			productName = "mindLAMPWatch Extension";
+			productReference = 33A811502487A6A800C336BD /* mindLAMPWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		B2847FB32450550E0042D43B /* NotificationService */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2847FBE2450550E0042D43B /* Build configuration list for PBXNativeTarget "NotificationService" */;
@@ -699,12 +904,14 @@
 				B29639CB23BDC28100626E1A /* Resources */,
 				5F7D0ADD23D8478B00BA0B4F /* Embed Frameworks */,
 				B2D931092445D7E90086477D /* Embed App Extensions */,
+				33A811692487A6A900C336BD /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				B2D931042445D7E90086477D /* PBXTargetDependency */,
 				B2847FBA2450550E0042D43B /* PBXTargetDependency */,
+				33A811672487A6A900C336BD /* PBXTargetDependency */,
 			);
 			name = mindLAMP;
 			productName = lampv2;
@@ -735,10 +942,16 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = LAMP;
-				LastSwiftUpdateCheck = 1120;
+				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Division of Digital Psychiatry";
 				TargetAttributes = {
+					33A811432487A69900C336BD = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					33A8114F2487A6A800C336BD = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					B2847FB32450550E0042D43B = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -767,11 +980,31 @@
 				B29639CC23BDC28100626E1A /* mindLAMP */,
 				B2D930F62445D7E90086477D /* CustomNotification */,
 				B2847FB32450550E0042D43B /* NotificationService */,
+				33A811432487A69900C336BD /* mindLAMPWatch */,
+				33A8114F2487A6A800C336BD /* mindLAMPWatch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		33A811422487A69900C336BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A8114A2487A6A700C336BD /* Assets.xcassets in Resources */,
+				33A811482487A69A00C336BD /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A8114E2487A6A800C336BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A811632487A6A900C336BD /* Preview Assets.xcassets in Resources */,
+				33A811602487A6A900C336BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B2847FB22450550E0042D43B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -803,6 +1036,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		33A8114C2487A6A800C336BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B828DD248EC299005B147B /* LMPhoneSessionManager.swift in Sources */,
+				334B7412248E784B00E9553A /* GravityData.swift in Sources */,
+				334B741C248E7D0700E9553A /* AwareObject.swift in Sources */,
+				334B7418248E7B5400E9553A /* AttitudeData.swift in Sources */,
+				336CAD15248E147400ECA190 /* LMWatchWorkoutManager.swift in Sources */,
+				334B741D248E7D1300E9553A /* AwareUtils.swift in Sources */,
+				33A811582487A6A800C336BD /* HostingController.swift in Sources */,
+				33A811562487A6A800C336BD /* ContentView.swift in Sources */,
+				334B741E248E7F1C00E9553A /* RotationData.swift in Sources */,
+				334B7411248E784300E9553A /* AccelerometerData.swift in Sources */,
+				33A811722487ACD200C336BD /* LAMPInitialInterfaceController.swift in Sources */,
+				33A8115C2487A6A800C336BD /* NotificationController.swift in Sources */,
+				33A8115A2487A6A800C336BD /* ExtensionDelegate.swift in Sources */,
+				336CAD18248E14DA00ECA190 /* LMWatchSensorManager.swift in Sources */,
+				336CAD1A248E150D00ECA190 /* LMRunningBuffer.swift in Sources */,
+				33A8115E2487A6A800C336BD /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B2847FB02450550E0042D43B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -844,6 +1100,7 @@
 				B2CD377E2477A2CA004E8B7B /* TextPresentation.swift in Sources */,
 				5FF29327242223F300D0BE09 /* FileStorage.swift in Sources */,
 				B275F60224518106007A7340 /* HomeWebViewModel.swift in Sources */,
+				334B7417248E7B3200E9553A /* AttitudeData.swift in Sources */,
 				5FB802B1241B859C00340112 /* LMHealthKitSensor.swift in Sources */,
 				5F82D578241272E30040AA41 /* MagnetometerData.swift in Sources */,
 				B275F60724519479007A7340 /* NotificationAPI.swift in Sources */,
@@ -865,6 +1122,7 @@
 				5F82D56A2412541D0040AA41 /* ScreenData.swift in Sources */,
 				B275F60424518C82007A7340 /* User.swift in Sources */,
 				5F34363324210B8A0097EC2F /* LMLogsManager.swift in Sources */,
+				33B828DA248EBBAE005B147B /* LMWatchSessionManager.swift in Sources */,
 				5F82D574241271830040AA41 /* GravitySensor.swift in Sources */,
 				5FB802B3241BAFF500340112 /* LMHealthKitSensorData.swift in Sources */,
 				B23F5279245346E0007A8598 /* PushUserInfo.swift in Sources */,
@@ -901,6 +1159,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		33A811532487A6A800C336BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A8114F2487A6A800C336BD /* mindLAMPWatch Extension */;
+			targetProxy = 33A811522487A6A800C336BD /* PBXContainerItemProxy */;
+		};
+		33A811672487A6A900C336BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A811432487A69900C336BD /* mindLAMPWatch */;
+			targetProxy = 33A811662487A6A900C336BD /* PBXContainerItemProxy */;
+		};
 		B2847FBA2450550E0042D43B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B2847FB32450550E0042D43B /* NotificationService */;
@@ -914,6 +1182,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		33A811462487A69A00C336BD /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A811472487A69A00C336BD /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		B29639DB23BDC28200626E1A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -933,11 +1209,105 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		33A8116A2487A6A900C336BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = S2Y2D4239K;
+				IBSC_MODULE = mindLAMPWatch_Extension;
+				INFOPLIST_FILE = mindLAMPWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = digital.lamp.mindlamp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		33A8116B2487A6A900C336BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = S2Y2D4239K;
+				IBSC_MODULE = mindLAMPWatch_Extension;
+				INFOPLIST_FILE = mindLAMPWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = digital.lamp.mindlamp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		33A8116D2487A6A900C336BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "mindLAMPWatch Extension/mindLAMPWatch Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"mindLAMPWatch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = S2Y2D4239K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "mindLAMPWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = digital.lamp.mindlamp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		33A8116E2487A6A900C336BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "mindLAMPWatch Extension/mindLAMPWatch Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"mindLAMPWatch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = S2Y2D4239K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "mindLAMPWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = digital.lamp.mindlamp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
 		B2847FBC2450550E0042D43B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = S2Y2D4239K;
 				INFOPLIST_FILE = NotificationService/Info.plist;
@@ -949,7 +1319,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = digital.lamp.mindlamp.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "mindLAMP 2 Notification Service AppStore";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -959,8 +1329,8 @@
 		B2847FBD2450550E0042D43B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = S2Y2D4239K;
 				INFOPLIST_FILE = NotificationService/Info.plist;
@@ -972,7 +1342,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = digital.lamp.mindlamp.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "mindLAMP 2 Notification Service AppStore";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1102,9 +1472,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = mindLAMP/mindLAMP.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 11;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_ASSET_PATHS = "\"mindLAMP/Preview Content\"";
 				DEVELOPMENT_TEAM = S2Y2D4239K;
 				ENABLE_BITCODE = YES;
@@ -1124,7 +1494,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = digital.lamp.mindlamp;
 				PRODUCT_NAME = "mindLAMP 2";
-				PROVISIONING_PROFILE_SPECIFIER = "mindlamp2 AppStore Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "mindLAMP/mindLAMP-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1139,9 +1509,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = mindLAMP/mindLAMP.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 11;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_ASSET_PATHS = "\"mindLAMP/Preview Content\"";
 				DEVELOPMENT_TEAM = S2Y2D4239K;
 				ENABLE_BITCODE = YES;
@@ -1161,7 +1531,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = digital.lamp.mindlamp;
 				PRODUCT_NAME = "mindLAMP 2";
-				PROVISIONING_PROFILE_SPECIFIER = "mindlamp2 AppStore Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "mindLAMP/mindLAMP-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1171,8 +1541,8 @@
 		B2D931072445D7E90086477D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = S2Y2D4239K;
 				INFOPLIST_FILE = CustomNotification/Info.plist;
@@ -1184,7 +1554,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = digital.lamp.mindlamp.CustomNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "mindLAMP 2 Notification Extension AppStore";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1194,8 +1564,8 @@
 		B2D931082445D7E90086477D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = S2Y2D4239K;
 				INFOPLIST_FILE = CustomNotification/Info.plist;
@@ -1207,7 +1577,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = digital.lamp.mindlamp.CustomNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "mindLAMP 2 Notification Extension AppStore";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1217,6 +1587,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		33A8116F2487A6A900C336BD /* Build configuration list for PBXNativeTarget "mindLAMPWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A8116D2487A6A900C336BD /* Debug */,
+				33A8116E2487A6A900C336BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		33A811702487A6A900C336BD /* Build configuration list for PBXNativeTarget "mindLAMPWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A8116A2487A6A900C336BD /* Debug */,
+				33A8116B2487A6A900C336BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		B2847FBE2450550E0042D43B /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1224,7 +1612,7 @@
 				B2847FBD2450550E0042D43B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		B29639C823BDC28100626E1A /* Build configuration list for PBXProject "mindLAMP" */ = {
 			isa = XCConfigurationList;
@@ -1233,7 +1621,7 @@
 				B29639E023BDC28200626E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		B29639E123BDC28200626E1A /* Build configuration list for PBXNativeTarget "mindLAMP" */ = {
 			isa = XCConfigurationList;
@@ -1242,7 +1630,7 @@
 				B29639E323BDC28200626E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		B2D931062445D7E90086477D /* Build configuration list for PBXNativeTarget "CustomNotification" */ = {
 			isa = XCConfigurationList;
@@ -1251,7 +1639,7 @@
 				B2D931082445D7E90086477D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

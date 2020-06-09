@@ -21,6 +21,7 @@ public class AwareUtils{
         if let deviceId = UserDefaults.standard.string(forKey: kDeviceIdKey) {
             return deviceId
         }else{
+            #if os(iOS)
             let deviceId = UIDevice.current.identifierForVendor?.uuidString
             if let did = deviceId {
                 UserDefaults.standard.set(did, forKey: kDeviceIdKey)
@@ -30,6 +31,11 @@ public class AwareUtils{
                 UserDefaults.standard.set(uuid, forKey: kDeviceIdKey)
                 return uuid
             }
+            #elseif os(watchOS)
+            let uuid = UUID.init().uuidString
+            UserDefaults.standard.set(uuid, forKey: kDeviceIdKey)
+            return uuid
+            #endif
         }
     }
     

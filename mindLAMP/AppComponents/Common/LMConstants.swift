@@ -8,6 +8,11 @@
 import Foundation
 import UIKit
 
+let kAccelerometerDataIdentifier: String = "AccelerometerData"
+let kGravityDataIdentifier: String = "GravityData"
+let kRotationDataIdentifier: String = "RotationData"
+let kAttitudeDataIdentifier: String = "AttitudeData"
+
 struct LampURL {
     static let dashboardDigital = "https://dashboard.lamp.digital"
     static let dashboardDigitalWithToken = Self.dashboardDigital + "/#/?a="

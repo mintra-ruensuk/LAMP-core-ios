@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         NotificationHelper.shared.registerForPushNotifications(delegate: self)
         NotificationHelper.shared.handleLaunchWithRemoteNotification(launchOptions)
+        LMWatchSessionManager.sharedManager.startSession()
         return true
     }
     

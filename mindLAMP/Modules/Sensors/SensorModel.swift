@@ -43,6 +43,7 @@ struct SensorDataModel: Encodable {
     var gravity: Gravitational?
     var magnetic: Magnetic?
     var rotation: Rotational?
+    var Attitude: Attitude?
     //Health
     var unit: String?
     var value: Double?
@@ -96,6 +97,12 @@ struct Gravitational: Encodable {
 }
 
 struct Magnetic: Encodable {
+    var x: Double?
+    var y: Double?
+    var z: Double?
+}
+
+struct Attitude: Encodable {
     var x: Double?
     var y: Double?
     var z: Double?
